@@ -15,8 +15,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.app.pixelplay"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -37,15 +36,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "owner": "noble111",
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "9ebaf929-0a70-407b-9c51-23b11c875d75"
-      }
     }
   }
 }

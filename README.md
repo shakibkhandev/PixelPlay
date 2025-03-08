@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+![Image Description](./assets/images/logo.png)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# PixelPlay 🎬
 
-## Get started
+**PixelPlay** is an open-source movie app built with **React Native**, **Appwrite**, and **The Movie Database (TMDb)**. It allows users to explore movies, get detailed information, and manage their favorite lists seamlessly.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- 🎥 Browse **Trending**, **Popular**, and **Upcoming Movies**
+- 🔎 **Search** for Movies & TV Shows
+- 📜 View **Movie Details** (Synopsis, Cast, Ratings, etc.)
+- ❤️ **Save Movies** to Favorites
+- 🌙 **Light & Dark Mode** Support
+- 🛠 Built with **React Native**, **Expo**, **Appwrite**, and **TMDb**
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🏗 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Frontend**: React Native, Expo, TailwindCSS
+- **Backend**: Appwrite (for authentication, database, and storage)
+- **API**: TMDb (for movie data)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+----
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+📦 Installation
+```sh
+git clone https://github.com/shakibkhandev/PixelPlay.git PixelPlay
+cd PixelPlay
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🏗 Build APK
+```sh
+npm i -g eas-cli
+```
+```sh
+eas login
+```
+```
+eas build:configure
+```
+```
+eas build --profile production --platform android
+```
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📱 Mobile View
 
-## Join the community
+<div style="height: 300px;">
+  <img src="./assets/images/readme/01.jpg" alt="Image 1" />
+  <img src="./assets/images/readme/02.jpg" alt="Image 2" />
+  <img src="./assets/images/readme/03.jpg" alt="Image 3" />
+  <img src="./assets/images/readme/04.jpg" alt="Image 4" />
+  <img src="./assets/images/readme/05.jpg" alt="Image 5" />
+  <img src="./assets/images/readme/06.jpg" alt="Image 6" />
+  <img src="./assets/images/readme/07.jpg" alt="Image 7" />
+</div>
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
