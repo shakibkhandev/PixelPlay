@@ -15,8 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.app.pixelplay"
+      }, 
+      "package": ""  // After Configuring EAS Build It Will Come
     },
     "web": {
       "bundler": "metro",
@@ -38,13 +38,13 @@
     "experiments": {
       "typedRoutes": true
     },
-    "owner": "noble111",
+    "owner": "", // After Configuring EAS Build It Will Come
     "extra": {
       "router": {
         "origin": false
       },
       "eas": {
-        "projectId": "9ebaf929-0a70-407b-9c51-23b11c875d75"
+        "projectId": "" // After Configuring EAS Build It Will Come
       }
     }
   }
